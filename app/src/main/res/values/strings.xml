@@ -2,4 +2,7 @@
     <string name="app_name">liveDioBanco</string>
     <string name="services_title">Nossos serviços</string>
     <string name="services_subtitle">disponíveis para você</string>
+    <string name="hello_user">Olá, Usuário!</string>
+    <string name="agency">Ag: 777</string>
+    <string name="account">Cc: 77777–7</string>
 </resources>
