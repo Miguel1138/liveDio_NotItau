@@ -30,23 +30,23 @@ class MainActivity : AppCompatActivity() {
         adapter.setItemsList(
             arrayListOf(
                 MenuItem("cartões"),
-                MenuItem("empréstimos"),
-                MenuItem("pic"),
-                MenuItem("seguros"),
-                MenuItem("soluções"),
-                MenuItem("investimentos"),
-                MenuItem("renegociação"),
-                MenuItem("meus comprovantes"),
-                MenuItem("consórcio"),
-                MenuItem("poupança"),
-                MenuItem("financiamento de imóvel"),
+                MenuItem("empréstimos", R.drawable.ic_payments_white_24dp),
+                MenuItem("pic", R.drawable.ic_military_tech_white_24dp),
+                MenuItem("seguros", R.drawable.ic_lock_white_24dp),
+                MenuItem("soluções", R.drawable.ic_build_white_24dp),
+                MenuItem("investimentos", R.drawable.ic_moving_black_24dp),
+                MenuItem("renegociação", R.drawable.ic_swap_horizontal_circle_white_24dp),
+                MenuItem("meus comprovantes", R.drawable.ic_receipt_black_24dp),
+                MenuItem("consórcio", R.drawable.ic_negotiations_white_24dp),
+                MenuItem("poupança", R.drawable.ic_savings_black_24dp),
+                MenuItem("financiamento de imóvel", R.drawable.ic_house_white_24dp),
                 MenuItem("iupp(programa de pontos)"),
-                MenuItem("iPhone pra Sempre"),
-                MenuItem("câmbio"),
-                MenuItem("viagem"),
-                MenuItem("meu pacote"),
-                MenuItem("plano de viagens"),
-                MenuItem("Portabilidade de salário.")
+                MenuItem("iPhone pra Sempre", R.drawable.ic_shopping_bag_white_24dp),
+                MenuItem("câmbio", R.drawable.ic_autorenew_white_24dp),
+                MenuItem("viagem", R.drawable.ic_flight_takeoff_white_24dp),
+                MenuItem("meu pacote", R.drawable.ic_inventory_2_white_24dp),
+                MenuItem("plano de viagens", R.drawable.ic_star_outline_white_24dp),
+                MenuItem("Portabilidade de salário.", R.drawable.ic_request_quote_white_24dp)
             )
         )
     }

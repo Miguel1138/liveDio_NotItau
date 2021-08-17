@@ -32,8 +32,7 @@ class MenuItemAdapter : RecyclerView.Adapter<MenuItemAdapter.MenuItemViewHolder>
     inner class MenuItemViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         fun bind(dataSet: MenuItem) {
             itemView.findViewById<TextView>(R.id.txt_item_title).text = dataSet.title
-            itemView.findViewById<ImageView>(R.id.image_item_icon)
-                .setImageResource(R.drawable.ic_baseline_credit_card_24)
+            itemView.findViewById<ImageView>(R.id.image_item_icon).setImageResource(dataSet.icon)
         }
     }
 

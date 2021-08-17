@@ -24,6 +24,7 @@
                 android:id="@+id/main_txt_username"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:contentDescription="@string/hello_user"
                 android:text="@string/hello_user"
                 android:textColor="?attr/colorSecondaryVariant"
                 android:textSize="16sp"
@@ -35,6 +36,7 @@
                 android:id="@+id/main_txt_agency"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:contentDescription="@string/content_agency"
                 android:text="@string/agency"
                 android:textSize="16sp"
                 android:textStyle="bold"
@@ -48,6 +50,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/default_margin"
                 android:layout_marginLeft="@dimen/default_margin"
+                android:contentDescription="@string/content_account"
                 android:text="@string/account"
                 android:textSize="16sp"
                 android:textStyle="bold"
@@ -63,6 +66,7 @@
             android:layout_marginStart="@dimen/big_margin"
             android:layout_marginLeft="@dimen/big_margin"
             android:layout_marginTop="@dimen/default_margin"
+            android:contentDescription="@string/content_services"
             android:text="@string/services_title"
             android:textColor="?attr/colorSecondary"
             android:textSize="26sp" />
@@ -74,6 +78,7 @@
             android:layout_marginStart="@dimen/big_margin"
             android:layout_marginLeft="@dimen/big_margin"
             android:layout_marginBottom="@dimen/default_margin"
+            android:importantForAccessibility="no"
             android:text="@string/services_subtitle"
             android:textSize="26sp" />
 

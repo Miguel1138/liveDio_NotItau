@@ -1,8 +1,11 @@
 <resources>
-    <string name="app_name">liveDioBanco</string>
+    <string name="app_name">NotItau</string>
     <string name="services_title">Nossos serviços</string>
     <string name="services_subtitle">disponíveis para você</string>
     <string name="hello_user">Olá, Usuário!</string>
     <string name="agency">Ag: 777</string>
     <string name="account">Cc: 77777–7</string>
+    <string name="content_agency">Agência número 777</string>
+    <string name="content_account">Conta número 77777-7</string>
+    <string name="content_services">Nossos serviços disponíveis para você</string>
 </resources>
